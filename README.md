@@ -6,6 +6,7 @@ A child theme for Twenty Fifteen which highlights how to theme Give.
 Here is Give's native styles on the single Give form with Twenty Fifteen out of the box.
 
 **SINGLE FORM BEFORE**
+
 ![Give in TwentyFifteen Single page BEFORE](assets/github-single-before.jpg)
 
 It works, but it's not necessarily the best presentation. Because of Twenty Fifteen's unique sidebar and narrow content area the Give Sidebar makes the form area pretty squished. 
@@ -15,16 +16,19 @@ You can disable the single Give sidebar globally by going to "Donations > Settin
 Instead, read up on [Themeing with Give](https://givewp.com/documentation/developers/themeing-with-give/) and you can get a Twenty Fifteen page more like this:
 
 **SINGLE FORM AFTER**
+
 ![Give in TwentyFifteen AFTER](assets/github-single-after.jpg)
 
 Next you'll want to pay attention to your Give Archive page. Out of the box it also is not optimal:
 
 **GIVE ARCHIVE BEFORE**
+
 ![Give in TwentyFifteen BEFORE](assets/github-archive-before.jpg)
 
 Give supports `the_title()`, `the_excerpt()`, and `the_post_thumbnail()` which is really all you need to make a striking landing page for all your donation forms like this:
 
 **GIVE ARCHIVE AFTER**
+
 ![Give in TwentyFifteen BEFORE](assets/github-archive-after.jpg)
 
 ## Anatomy of Give 2015

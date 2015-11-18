@@ -1,0 +1,100 @@
+/**
+ * Theme Name:   Give 2015
+ * Theme URI:    https://givewp.com
+ * Description:  A Child Theme for Twenty Fifteen highlighting custom Give themeing techniques as described in "<a href=" https://givewp.com/documentation/developers/themeing-give">Themeing Give</a>" documentation.
+ * Author:       Matt Cromwell
+ * Author URI:   https://mattcromwell.com
+ * Template:     twentyfifteen
+ * Version:      1.0.0
+ */
+
+.single-give_forms h1.give-form-title {
+    color: white;
+    padding: 2em 1em;
+    text-align: center;
+    text-shadow: 2px 2px 2px rgba(0,0,0,.7);
+}
+
+.give-form-content-wrap p:first-of-type {
+    font-size: 140%;
+    font-style: italic;
+    font-weight: 700;
+    color: #9F9C93;
+}
+
+button, input[type="button"], input[type="reset"], input[type="submit"],
+.give-btn {
+    background: #9F9C93;
+}
+
+.give-btn.give-default-level,
+.give-btn:hover,
+button:hover,
+input[type="button"]:hover,
+input[type="reset"]:hover,
+input[type="submit"]:hover {
+    background: #287339;
+}
+
+a {color: #9F9C93;}
+a:hover {color: #287339;}
+
+/*
+ * Twenty Fifteen Layout adjustments just because
+ *
+ */
+
+@media screen and (min-width: 38.75em) {
+    .site-main {
+        padding: 0 0 7.6923% 0;
+    }
+}
+
+@media screen and (min-width: 59.6875em) {
+    .site-main {
+        padding: 0 0 8.3333% 0;
+    }
+}
+
+/* GIVE ARCHIVE STYLES */
+
+body.archive .give_forms.hentry {
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+    -webkit-transition: all 600ms ease-in-out;
+    -moz-transition: all 600ms ease-in-out;
+    -ms-transition: all 600ms ease-in-out;
+    -o-transition: all 600ms ease-in-out;
+    transition: all 600ms ease-in-out;
+    position: relative;
+    margin-top: 3em;
+    padding: 2em 1em;
+    overflow: hidden;
+    background: rgba(255,255,255,0.4);
+}
+
+body.archive .give_forms.hentry:hover {
+    background: rgba(255,255,255,0);
+}
+
+body.archive .give_forms.hentry .entry-header a {
+    color: white;
+    text-shadow: 2px 2px 2px rgba(0,0,0,.7);
+}
+
+body.archive .give_forms.hentry .entry-content {
+    background: rgba(0,25,0,0.55);
+    padding:2em    
+}
+
+body.archive .give_forms.hentry a.featured-image-link {
+    position:absolute;
+    top:0;
+    left:0;
+    z-index: -1;
+}
+body.archive .give_forms.hentry a.featured-image-link img {
+    width: 100%;
+    margin-top: -20%;
+}
